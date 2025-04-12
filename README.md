@@ -1,2 +1,0 @@
-# DhritimanRoy
-## Hello world done
