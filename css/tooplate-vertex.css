@@ -265,7 +265,7 @@ span, footer {  line-height: 1.8; }
     height: 240px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #333;
+    background-color: red;
     color: #999;
     display: flex;
     align-items: center;
@@ -273,7 +273,7 @@ span, footer {  line-height: 1.8; }
     flex-direction: column;
 }
 
-.tm-brand-icon { margin-bottom: 25px; }
+.tm-brand-icon { margin-bottom: 15px; }
 .tm-brand-text { font-size: 12px; }
 
 /* Nav */
