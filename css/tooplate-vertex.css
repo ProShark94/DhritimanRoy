@@ -156,7 +156,7 @@ html, body { overflow-x: hidden; }
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    background: url("../img/gallery/tn/bg.jpg") no-repeat center center fixed;
+    background:#222629 ;
     background-size: cover;
     color: red;
     margin: 0;
@@ -307,7 +307,7 @@ span, footer {  line-height: 1.8; }
 }
 
 .tm-nav ul {
-    background-color: #444;
+    background-color:transparent;
     display: flex;
     justify-content: space-around;
 }
@@ -315,7 +315,7 @@ span, footer {  line-height: 1.8; }
 .nav-item { list-style: none; }
 
 .nav-link {
-    color: #999;
+    color: #86C232;
     padding-top: 40px;
     padding-bottom: 40px;
     display: block;
