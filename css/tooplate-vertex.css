@@ -142,7 +142,7 @@ html, body { overflow-x: hidden; }
 body { 
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    background-color: #333;
+    background-color: red;
     color: #999;
     margin: 0;
 }
