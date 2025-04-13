@@ -604,7 +604,13 @@ figure.effect-goliath:hover p {
 
     .tm-copyright { margin-left: 15px; }
 }
+.tm-gallery img:nth-child(11) {
+    border-right: 2px solid #333; /* Add a line between images */
+}
 
+.tm-gallery img:nth-child(12) {
+    border-left: 2px solid #333; /* Add a line between images */
+}
 
 @media (max-width: 992px) {
     .tm-brand { 
@@ -687,7 +693,7 @@ figure.effect-goliath:hover p {
     transition: transform 1s ease-in-out;
     transform-style: preserve-3d;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow */
-    border-radius: 18px; /* Optional: smoother corners */
+    border-radius: 8px; /* Optional: smoother corners */
 }
 
 .rotate-image.rotate {
