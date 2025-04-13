@@ -39,7 +39,7 @@
     z-index: 1002;
 } */
 
-    #loader-wrapper:before {
+    /* #loader-wrapper:before {
         content: "";
         position: absolute;
         top: 5px;
@@ -50,8 +50,8 @@
         border: 3px solid transparent;
         border-top-color: #e74c3c;
 
-        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ 
+        animation: spin 3s linear infinite; Chrome, Firefox 16+, IE 10+, Opera 
     }
 
     #loader-wrapper:after {
@@ -65,9 +65,9 @@
         border: 3px solid transparent;
         border-top-color: #f9c922;
 
-        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-    }
+        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ 
+          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera 
+    } */
 
     @-webkit-keyframes spin {
         0%   { 
