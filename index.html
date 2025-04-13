@@ -20,21 +20,8 @@
         <div class="loader-section section-right"></div>
 
     </div> -->
-    <div id="lottie-loader" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-        <!-- Lottie animation will be rendered here -->
-    </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.0/lottie.min.js"></script>
-    <script>
-        // Initialize Lottie Animation
-        const lottieLoader = lottie.loadAnimation({
-            container: document.getElementById('lottie-loader'), // The container to render the animation
-            path: 'img/animation.lottie', // Replace with the actual path to your .lottie file
-            renderer: 'svg', // Render the animation as SVG
-            loop: true, // Enable looping
-            autoplay: true, // Start the animation automatically
-        });
-    </script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <dotlottie-player src="https://lottie.host/b3830679-71f2-4717-acc6-9e424818a96d/HFB2OFcI3G.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
 
     <!-- Site logo -->
     <h1 class="tm-brand">
