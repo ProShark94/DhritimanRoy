@@ -139,12 +139,24 @@
 
 * {  box-sizing: border-box; }
 html, body { overflow-x: hidden; }
-body { 
+body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    background-color: red;
+    background: url("img/gallery/tn/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
     color: #999;
     margin: 0;
+
+    /* Blurring the background image */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+/* To make sure the content isn't blurred, wrap it in an overlay */
+.content {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: none;
 }
 a { color: #fff; text-decoration: none; }
 a:hover {  color: #9C9; }
