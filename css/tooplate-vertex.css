@@ -671,5 +671,5 @@ figure.effect-goliath:hover p {
 }
 
 .rotate-image.rotate {
-    transform: rotateY(180deg); /* Rotate on the Y-axis */
+    transform: rotateY(360deg); /* Rotate on the Y-axis */
 }
