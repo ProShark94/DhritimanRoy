@@ -546,7 +546,7 @@ figure.effect-goliath:hover p {
 .mapouter {
     position: absolute;
     top: 240px;
-    left: 0;
+    left: 10;
 }
 
 .gmap-canvas { width: 340px; }
