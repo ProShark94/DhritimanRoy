@@ -664,11 +664,14 @@ figure.effect-goliath:hover p {
 }
 
 .rotate-image {
-    transition: transform 1s ease-in-out;
-    transform-style: preserve-3d;
-    
+    transition: transform 1s ease-in-out; /* Smooth rotation */
+    transform-style: preserve-3d; /* Maintain 3D perspective */
+    border: none; /* Remove any border */
+    box-shadow: none; /* Remove any shadow */
+    background: transparent; /* Ensure no background */
+    border-radius: 0; /* Remove rounded corners if any */
 }
 
 .rotate-image.rotate {
-    transform: rotateY(360deg); /* Rotate on the Y-axis */
+    transform: rotateY(360deg); /* Full rotation without mirroring */
 }
