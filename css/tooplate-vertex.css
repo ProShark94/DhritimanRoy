@@ -1,14 +1,4 @@
-/*
 
-Tooplate 2124 Vertex
-
-https://www.tooplate.com/view/2124-vertex
-
-*/
-
-/* Loader 
-https://ihatetomatoes.net/create-custom-preloading-screen/
-*/
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -29,8 +19,8 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
     border: 3px solid transparent;
     border-top-color: #3498db;
 
-    -webkit-animation: spin 1s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 1s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 
     z-index: 1002;
 }
@@ -192,10 +182,6 @@ span, footer {  line-height: 1.8; }
     border-color: #99CC99;
 }
 
-header, nav, .tm-header {
-    overflow: visible;
-}
-
 .tm-text-small { font-size: 0.9em; }
 .tm-text-center { text-align: center; }
 .tm-text-right { text-align: right; }
@@ -262,25 +248,23 @@ header, nav, .tm-header {
 
 /* Brand */
 .tm-brand {
-    position: absolute;
-    bottom: auto;
-    right: auto;
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
     width: 300px;
     height: 240px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: #333;
     color: #999;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem;
-    z-index:1001;
 }
 
-.tm-brand-icon { margin-bottom: 15px; }
-.tm-brand-text { font-size: 12px; }
+.tm-brand-icon { margin-bottom: 25px; }
+.tm-brand-text { font-size: 32px; }
 
 /* Nav */
 .navbar-toggler { display: none; }
@@ -319,8 +303,6 @@ header, nav, .tm-header {
     display: flex;
     align-items: flex-start;
     margin-bottom: 70px;
-    background: transparent;
-
 }
 
 .tm-media img {
@@ -554,7 +536,7 @@ figure.effect-goliath:hover p {
 .mapouter {
     position: absolute;
     top: 240px;
-    left: 10;
+    left: 0;
 }
 
 .gmap-canvas { width: 340px; }
@@ -563,7 +545,6 @@ figure.effect-goliath:hover p {
     margin-left: -50px;
     margin-bottom: -50px;
 }
-
 
 @media (max-width: 1200px) {
     .tm-nav { width: 0; }
@@ -606,20 +587,12 @@ figure.effect-goliath:hover p {
 
     .tm-copyright { margin-left: 15px; }
 }
-.tm-gallery img:nth-child(11) {
-    border-right: 2px solid #333; /* Add a line between images */
-}
-
-.tm-gallery img:nth-child(12) {
-    border-left: 2px solid #333; /* Add a line between images */
-}
 
 @media (max-width: 992px) {
     .tm-brand { 
         position: static;
-        margin: 0 auto 30px;
-        display: flex;
-        justify-content: center;
+        margin-left: auto;
+        margin-right: 0;
     }
 
     .tm-gallery figure { width: 33.33%; }
@@ -688,16 +661,4 @@ figure.effect-goliath:hover p {
         width: 100px;
         height: 100px;
     }
-}
-/* image rotate */
-
-.rotate-image {
-    transition: transform 1s ease-in-out;
-    transform-style: preserve-3d;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow */
-    border-radius: 8px; /* Optional: smoother corners */
-}
-
-.rotate-image.rotate {
-    transform: rotateY(180deg); /* Rotate on the Y-axis */
 }
