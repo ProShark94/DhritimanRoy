@@ -324,7 +324,7 @@ span, footer {  line-height: 1.8; }
 
 .nav-link:hover,
 .nav-link.current {
-    color: #99CC99;
+    color: #fff;
 }
 
 /* Introduction */
@@ -600,13 +600,13 @@ figure.effect-goliath:hover p {
         width: 50px;
         height: 45px;
         font-size: 1.2rem;
-        background-color: #444444;
+        background-color: transparent;
         border: none;
         color: #999999;
         outline: none;
     }
 
-    .navbar-toggler:hover { color: #99CC99; }
+    .navbar-toggler:hover { color: #fff; }
 
     .tm-content {
         padding-left: 20px;
