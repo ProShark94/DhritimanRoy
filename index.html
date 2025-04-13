@@ -13,13 +13,28 @@
 </head>
 <body>
     <!-- Page Loader -->
-    <div id="loader-wrapper">
+    <!-- <div id="loader-wrapper">
         <div id="loader"></div>
 
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
 
+    </div> -->
+    <div id="lottie-loader" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+        <!-- Lottie animation will be rendered here -->
     </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.0/lottie.min.js"></script>
+    <script>
+        // Initialize Lottie Animation
+        const lottieLoader = lottie.loadAnimation({
+            container: document.getElementById('lottie-loader'), // The container to render the animation
+            path: 'img/animation.lottie', // Replace with the actual path to your .lottie file
+            renderer: 'svg', // Render the animation as SVG
+            loop: true, // Enable looping
+            autoplay: true, // Start the animation automatically
+        });
+    </script>
 
     <!-- Site logo -->
     <h1 class="tm-brand">
