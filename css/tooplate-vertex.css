@@ -29,8 +29,8 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
     border: 3px solid transparent;
     border-top-color: #3498db;
 
-    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    -webkit-animation: spin 1s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 1s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 
     z-index: 1002;
 }
@@ -271,6 +271,7 @@ span, footer {  line-height: 1.8; }
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 1001;
 }
 
 .tm-brand-icon { margin-bottom: 15px; }
