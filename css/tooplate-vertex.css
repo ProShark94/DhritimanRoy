@@ -693,7 +693,7 @@ figure.effect-goliath:hover p {
     transition: transform 1s ease-in-out;
     transform-style: preserve-3d;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow */
-    border-radius: 8px; /* Optional: smoother corners */
+    border-radius: 18px; /* Optional: smoother corners */
 }
 
 .rotate-image.rotate {
