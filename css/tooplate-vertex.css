@@ -144,7 +144,7 @@ body {
     font-size: 18px;
     background: url("/img/gallery/tn/bg.jpg") no-repeat center center fixed;
     background-size: cover;
-    color: #999;
+    color: red;
     margin: 0;
 
     /* Blurring the background image */
