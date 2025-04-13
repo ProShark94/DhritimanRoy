@@ -156,9 +156,9 @@ html, body { overflow-x: hidden; }
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    background:#222629 ;
+    background:#2f3e46 ;
     background-size: cover;
-    color: red;
+    color: #e9d8a6;
     margin: 0;
 }
 
