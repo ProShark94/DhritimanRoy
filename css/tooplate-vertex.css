@@ -262,9 +262,9 @@ header, nav, .tm-header {
 
 /* Brand */
 .tm-brand {
-    position: fixed;
-    bottom: 80px;
-    right: 70px;
+    position: relative;
+    bottom: auto;
+    right: auto;
     width: 300px;
     height: 240px;
     margin-top: 0;
@@ -276,6 +276,7 @@ header, nav, .tm-header {
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
+    z-index:1001;
 }
 
 .tm-brand-icon { margin-bottom: 15px; }
@@ -561,6 +562,7 @@ figure.effect-goliath:hover p {
     margin-bottom: -50px;
 }
 
+
 @media (max-width: 1200px) {
     .tm-nav { width: 0; }
     .tm-nav ul {
@@ -606,8 +608,9 @@ figure.effect-goliath:hover p {
 @media (max-width: 992px) {
     .tm-brand { 
         position: static;
-        margin-left: auto;
-        margin-right: 0;
+        margin: 0 auto 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .tm-gallery figure { width: 33.33%; }
