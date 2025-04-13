@@ -392,7 +392,26 @@
         });
 
         $(function(){
-            
+
+            /*************** image rotator *****************/
+            document.addEventListener("DOMContentLoaded", function () {
+        const images = document.querySelectorAll(".tm-media img");
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("rotate");
+                }
+            });
+        }, {
+            threshold: 0.5 // Trigger when 50% of the image is visible
+        });
+
+        images.forEach(img => {
+            img.classList.add("rotate-image"); // Ensure base class is there
+            observer.observe(img);
+        });
+        });
             /*************** Navigation *****************/
 
             const tmMainNav = $("#tm-main-nav");

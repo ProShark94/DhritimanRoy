@@ -672,3 +672,12 @@ figure.effect-goliath:hover p {
         height: 100px;
     }
 }
+/* image rotate */
+
+.rotate-image {
+    transition: transform 1s ease-in-out;
+}
+
+.rotate-image.rotate {
+    transform: rotate(360deg);
+}
