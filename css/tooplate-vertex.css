@@ -148,8 +148,8 @@ body {
     margin: 0;
 
     /* Blurring the background image */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
 }
 
 /* To make sure the content isn't blurred, wrap it in an overlay */
