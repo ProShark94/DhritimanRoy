@@ -692,9 +692,7 @@ figure.effect-goliath:hover p {
 .rotate-image {
     transition: transform 1s ease-in-out;
     transform-style: preserve-3d;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow */
-    border-radius: 18px; /* Optional: smoother corners */
-}
+    backface-visibility: hidden;}
 
 .rotate-image.rotate {
     transform: rotateY(180deg);
