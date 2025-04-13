@@ -319,6 +319,8 @@ header, nav, .tm-header {
     display: flex;
     align-items: flex-start;
     margin-bottom: 70px;
+    background: transparent;
+
 }
 
 .tm-media img {
@@ -697,5 +699,5 @@ figure.effect-goliath:hover p {
 }
 
 .rotate-image.rotate {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /* Rotate on the Y-axis */
 }
