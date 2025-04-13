@@ -192,6 +192,10 @@ span, footer {  line-height: 1.8; }
     border-color: #99CC99;
 }
 
+header, nav, .tm-header {
+    overflow: visible;
+}
+
 .tm-text-small { font-size: 0.9em; }
 .tm-text-center { text-align: center; }
 .tm-text-right { text-align: right; }
@@ -271,6 +275,7 @@ span, footer {  line-height: 1.8; }
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1rem;
 }
 
 .tm-brand-icon { margin-bottom: 15px; }
