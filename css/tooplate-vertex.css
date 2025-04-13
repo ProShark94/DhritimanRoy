@@ -271,7 +271,6 @@ span, footer {  line-height: 1.8; }
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    z-index: 10001;
 }
 
 .tm-brand-icon { margin-bottom: 15px; }
