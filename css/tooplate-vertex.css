@@ -307,7 +307,7 @@ span, footer {  line-height: 1.8; }
 }
 
 .tm-nav ul {
-    background-color:transparent;
+    background-color:red;
     display: flex;
     justify-content: space-around;
 }
