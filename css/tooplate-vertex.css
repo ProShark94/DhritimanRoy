@@ -156,7 +156,7 @@ html, body { overflow-x: hidden; }
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    background:black ;
+    background: #050a30; ;
     background-size: cover;
     color: #e9d8a6;
     margin: 0;
